@@ -110,7 +110,7 @@ module CHANNEL_HEAD
 
     always @ (posedge clk) begin
         if(channel_enable) begin
-            if(commit_channel_data_read && !fifo_empty) read_enable <= 1;
+            if(commit_channel_data_read && !fifo_empty) read_enable <= 1;           // NEED TO MAKE THESE RISING DETECT PROBABLY!!!
             else if(commit_channel_data_read && fifo_empty) read_error <= 1;
             else read_enable <= 0;
 
