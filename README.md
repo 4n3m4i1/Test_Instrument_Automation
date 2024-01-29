@@ -12,5 +12,5 @@ The hardware and software contained here are aimed at consolidating several inte
 
 
 ## Licensing
-Hardware / HDL -> CERN OHL-S v.2 (Text Attached, hardware in folder)
+Hardware / HDL -> CERN OHL-S v.2 (Text Attached, hardware in folder)  
 Python / C Source Files -> MIT (Text Attached, in software folder)
